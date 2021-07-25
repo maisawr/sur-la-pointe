@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Sapatilha de meia ponta",
+        "price": 69.9
+    },
+    {
+        "id": 2,
+        "name": "Sapatilha de ponta",
+        "price": 221.9
+    },
+    {
+        "id": 3,
+        "name": "Collant",
+        "price": 89.99
+    },
+    {
+        "id": 4,
+        "name": "Tutu",
+        "price": 802.90
+    }
+]

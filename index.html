@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet">
+    <script defer src="scripts/script.js"></script>
+    <script type="text/javascript" src="produtos.json"></script>
+
+    <!-- font-family da Logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
+
+    <!-- font-family do conteúdo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    
+    <title>On pointe</title>
+</head>
+<body>
+    <header>
+        <h1>Sur la Pointe</h1>
+    </header>
+
+    <main>
+        <div class="produtos">
+            <h2>Produtos</h2>
+            <div class="card-produtos" id="cart">  
+                <div class="card">
+                    <img src="images/half-pointe-shoe.png">
+                    <h3 id="1">Sapatilha de meia ponta</h3>
+                    <span>R$69,90</span>
+                    <button onclick="carrinho()">Adicionar ao carrinho</button>
+                </div>
+                <div class="card">
+                    <img src="images/pointe-shoe.png">
+                    <h3 id="2">Sapatilha de ponta</h3>
+                    <span>R$221,90</span>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                <div class="card">
+                    <img src="images/leotard.png">
+                    <h3 id="3">Collant</h3>
+                    <span>R$89,99</span>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+                <div class="card">
+                    <img src="images/tutu.png">
+                    <h3 id="4">Tutu</h3>
+                    <span>R$802,90</span>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-compras">        
+            <div class="cadastro">
+                <h2>Cadastro</h2>
+                <!-- <p>Insira suas informações para prosseguir</p> -->
+                <div class="card-container">        
+                    <div id="content">
+                        <form id="form">
+                            <p>Insira suas informações para prosseguir</p>
+                            <input type="text" placeholder="Nome completo" id="nome">
+                            <input type="text" placeholder="E-mail" id="email">
+                            <input type="text" placeholder="Endereço" id="endereco">
+                            <input type="submit" value="Continuar" id="submit-button">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carrinho" id="itensCarrinho">
+                <h2>Carrinho</h2>
+                <p id="totalItens">Itens no carrinho: </p>
+                <p>Valor total: R$</p>
+
+            </div>
+        </div>
+
+        
+    </main>
+
+    <footer>
+        &copy; Maísa 2021
+        <br />
+        Desafio desenvolvido no programa Hiring Coders da Gama Academy
+    </footer>   
+</body>
+</html>
