@@ -92,7 +92,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     max-width: 700px;
-    min-width: 500px;
+    min-width: 200px;
     border: 1px solid #800344;
     padding: 0px 20px 0px 20px;
 }
